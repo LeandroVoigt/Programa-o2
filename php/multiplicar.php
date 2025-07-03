@@ -1,0 +1,14 @@
+<?php
+    function multiplicar($numero1, $numero2){
+        return $numero1 * $numero2;
+    }
+
+    $n1=$_GET["numero1"];
+    $n2 = $_GET ["numero2"];
+    
+    if($n2 == 0){
+        echo 0;
+    }else{
+        echo multiplicar($n1,$n2);
+    }
+?>
